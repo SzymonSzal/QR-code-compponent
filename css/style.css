@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    height: 670px;
+    width: 440px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    border-radius: 15px;
+
+}
+
+h1 {
+    font-weight: 700;
+    padding-top: 2rem;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
